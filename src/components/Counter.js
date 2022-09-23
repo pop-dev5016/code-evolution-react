@@ -13,16 +13,20 @@ class Counter extends Component {
     increment(){
         this.setState({
             count: this.state.count+1
+        },()=>{
+            console.log("callback + value : ",this.state.count);
         })
-       
+       console.log("state veliya + ",this.state.count);
     }
 
 
     decrement(){
         this.setState({
             count: this.state.count-1
+        },()=>{
+            console.log("callback - value : ",this.state.count);
         })
-        
+        console.log("state veliya -",this.state.count);
     }
     
   render() {
