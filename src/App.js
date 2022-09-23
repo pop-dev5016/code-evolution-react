@@ -7,6 +7,7 @@ import Message from './components/message';
 import Counter from './components/Counter';
 import Functionclick from './Functionclick';
 import React from "react";
+import Classclick from './components/Classevent';
 import { Component } from "react";
 
 
@@ -15,7 +16,7 @@ class App extends Component {
   return (
     <div className="App">
       {/* <Hello/> */}
-      <Functionclick/>
+      {/* <Functionclick/> */}
       {/* <Greet name="pavi" regno="2012505016"  >
         this is childern props
       </Greet>
@@ -31,6 +32,7 @@ class App extends Component {
       {/* <Greet name="nava" regno="2012505018"></Greet>
       <Greet name="appa" regno="2012505019"></Greet> */}
       {/* <Welcome name="nava" regno="2012505018"></Welcome> */}
+      <Classclick></Classclick>
     </div>
   );
 }
