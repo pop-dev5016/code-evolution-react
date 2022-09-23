@@ -5,6 +5,7 @@ import Greet from './components/Function';
 import Welcome from './components/welcome';
 import Message from './components/message';
 import Counter from './components/Counter';
+import Functionclick from './Functionclick';
 import React from "react";
 import { Component } from "react";
 
@@ -14,7 +15,7 @@ class App extends Component {
   return (
     <div className="App">
       {/* <Hello/> */}
-      
+      <Functionclick/>
       {/* <Greet name="pavi" regno="2012505016"  >
         this is childern props
       </Greet>
@@ -29,7 +30,7 @@ class App extends Component {
       {/* <Counter></Counter> */}
       {/* <Greet name="nava" regno="2012505018"></Greet>
       <Greet name="appa" regno="2012505019"></Greet> */}
-      <Welcome name="nava" regno="2012505018"></Welcome>
+      {/* <Welcome name="nava" regno="2012505018"></Welcome> */}
     </div>
   );
 }
