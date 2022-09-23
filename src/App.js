@@ -24,13 +24,12 @@ class App extends Component {
       <Greet name="nava" regno="2012505018"></Greet>
       <Greet name="appa" regno="2012505019"></Greet>
       <Greet name="amma" regno="2012505020"></Greet>
-      <Welcome name="nava" regno="2012505018"></Welcome>
       <Welcome name="appa" regno="2012505019" ></Welcome> */}
       {/* <Message></Message> */}
       {/* <Counter></Counter> */}
-      <Greet name="nava" regno="2012505018"></Greet>
-      <Greet name="appa" regno="2012505019"></Greet>
-
+      {/* <Greet name="nava" regno="2012505018"></Greet>
+      <Greet name="appa" regno="2012505019"></Greet> */}
+      <Welcome name="nava" regno="2012505018"></Welcome>
     </div>
   );
 }
