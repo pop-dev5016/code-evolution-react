@@ -4,8 +4,8 @@ import { Component } from "react";
 class Welcome extends Component {
 
    render(){
-      const {name,hero} = this.props
-        return <h1>welcome {this.props.name} and {this.props.regno}</h1>
+      const {name,regno} = this.props
+        return <h1>welcome {name} and {regno}</h1>
    }
 }
 
