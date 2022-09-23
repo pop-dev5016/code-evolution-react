@@ -3,7 +3,7 @@ import './App.css';
 import Hello from './components/hello';
 import Greet from './components/Function';
 import Welcome from './components/welcome';
-
+import Message from './components/message';
 import React from "react";
 import { Component } from "react";
 
@@ -14,7 +14,7 @@ class App extends Component {
     <div className="App">
       {/* <Hello/> */}
       
-      <Greet name="pavi" regno="2012505016"  >
+      {/* <Greet name="pavi" regno="2012505016"  >
         this is childern props
       </Greet>
       <Greet name="viki" regno="2012505017">
@@ -24,7 +24,8 @@ class App extends Component {
       <Greet name="appa" regno="2012505019"></Greet>
       <Greet name="amma" regno="2012505020"></Greet>
       <Welcome name="nava" regno="2012505018"></Welcome>
-      <Welcome name="appa" regno="2012505019" ></Welcome>
+      <Welcome name="appa" regno="2012505019" ></Welcome> */}
+      <Message></Message>
     </div>
   );
 }
