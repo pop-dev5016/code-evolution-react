@@ -7,14 +7,18 @@ import React, { Component } from 'react'
       this.state = {
          message:"hello"
       }
-      this.clickhandler = this.clickhandler.bind(this)
+    //   this.clickhandler = this.clickhandler.bind(this)
     }
-    clickhandler(){
+//     clickhandler(){
+//         this.setState({
+//             message:"GOOD BYE"
+//     })
+//  }
+     clickhandler = () =>{
         this.setState({
-            message:"GOOD BYE"
-    })
-}
-    
+            message:"Goodbye!!!!!!!!!!!!!"
+        })
+     }
   render() {
     return (
       <div>
