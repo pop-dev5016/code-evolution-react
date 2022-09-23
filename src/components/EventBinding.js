@@ -18,7 +18,8 @@ import React, { Component } from 'react'
     return (
       <div>
         <div>{this.state.message}</div>
-        <button onClick={this.clickhandler.bind(this)}>click</button>
+        {/* <button onClick={this.clickhandler.bind(this)}>click</button> */}
+        <button onClick={()=>this.clickhandler()}>click</button>
       </div>
     )
   }
