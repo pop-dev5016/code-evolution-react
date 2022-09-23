@@ -12,7 +12,19 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      <Hello/>
+      {/* <Hello/> */}
+      
+      <Greet name="pavi" regno="2012505016"  >
+        this is childern props
+      </Greet>
+      <Greet name="viki" regno="2012505017">
+        <button>DONT CLICK</button>
+      </Greet>
+      <Greet name="nava" regno="2012505018"></Greet>
+      <Greet name="appa" regno="2012505019"></Greet>
+      <Greet name="amma" regno="2012505020"></Greet>
+      <Welcome name="nava" regno="2012505018"></Welcome>
+      <Welcome name="appa" regno="2012505019" ></Welcome>
     </div>
   );
 }
