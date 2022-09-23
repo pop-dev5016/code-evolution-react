@@ -4,6 +4,7 @@ import Hello from './components/hello';
 import Greet from './components/Function';
 import Welcome from './components/welcome';
 import Message from './components/message';
+import Counter from './components/Counter';
 import React from "react";
 import { Component } from "react";
 
@@ -25,7 +26,9 @@ class App extends Component {
       <Greet name="amma" regno="2012505020"></Greet>
       <Welcome name="nava" regno="2012505018"></Welcome>
       <Welcome name="appa" regno="2012505019" ></Welcome> */}
-      <Message></Message>
+      {/* <Message></Message> */}
+      <Counter></Counter>
+
     </div>
   );
 }
