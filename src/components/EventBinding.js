@@ -7,6 +7,7 @@ import React, { Component } from 'react'
       this.state = {
          message:"hello"
       }
+      this.clickhandler = this.clickhandler.bind(this)
     }
     clickhandler(){
         this.setState({
@@ -19,7 +20,8 @@ import React, { Component } from 'react'
       <div>
         <div>{this.state.message}</div>
         {/* <button onClick={this.clickhandler.bind(this)}>click</button> */}
-        <button onClick={()=>this.clickhandler()}>click</button>
+        {/* <button onClick={()=>this.clickhandler()}>click</button> */}
+        <button onClick={this.clickhandler}>click</button>
       </div>
     )
   }
