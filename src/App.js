@@ -27,7 +27,9 @@ class App extends Component {
       <Welcome name="nava" regno="2012505018"></Welcome>
       <Welcome name="appa" regno="2012505019" ></Welcome> */}
       {/* <Message></Message> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <Greet name="nava" regno="2012505018"></Greet>
+      <Greet name="appa" regno="2012505019"></Greet>
 
     </div>
   );
