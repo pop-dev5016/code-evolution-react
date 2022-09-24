@@ -7,6 +7,7 @@ import Message from './components/message';
 import Counter from './components/Counter';
 import Functionclick from './Functionclick';
 import EventBinding from './components/EventBinding';
+import ParentComponent from './components/ParentComponent';
 import React from "react";
 import Classclick from './components/Classevent';
 import { Component } from "react";
@@ -35,7 +36,8 @@ class App extends Component {
       <Greet name="appa" regno="2012505019"></Greet> */}
       {/* <Welcome name="nava" regno="2012505018"></Welcome> */}
       {/* <Classclick></Classclick> */}
-      <EventBinding></EventBinding>
+      {/* <EventBinding></EventBinding> */}
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
