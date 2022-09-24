@@ -43,7 +43,7 @@ class App extends Component {
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
-      <Stylesheet></Stylesheet>
+      <Stylesheet primary={true}></Stylesheet>
     </div>
   );
 }
