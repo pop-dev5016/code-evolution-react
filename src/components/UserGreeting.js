@@ -10,13 +10,11 @@ export class UserGreeting extends Component {
     }
     
   render() {
-     let message 
-     if(this.state.isLoggedin){
-            message = <div>Welcome poppy</div>
-         }else{
-            message = <div>Welcome guest</div>
-         }
-     return <div>{message}</div>
+    
+
+    this.state.isLoggedin?
+    <div>Welcome vishwas</div>:
+    <div>Welcome guest</div>
 
 
 
@@ -24,6 +22,15 @@ export class UserGreeting extends Component {
 
 
 
+
+
+    //  let message 
+    //  if(this.state.isLoggedin){
+    //         message = <div>Welcome poppy</div>
+    //      }else{
+    //         message = <div>Welcome guest</div>
+    //      }
+    //  return <div>{message}</div>
 
 
     // if(this.state.isLoggedin){
