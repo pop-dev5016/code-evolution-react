@@ -3,7 +3,7 @@ import Person from './Person';
 
 
 function NameList() {
-    const names = ['bruce','clark','diana',"rajni"]
+    const names = ['bruce','clark','diana',"rajnikanth"]
     const persons = [
     {
         id:1,
@@ -24,7 +24,7 @@ function NameList() {
         skill: "just diagonise diseases"
 
     }];
-    const nameList = names.map(lordshiva =><h2 key = {lordshiva}>{lordshiva}</h2>)
+    const nameList = names.map((lordshiva,index) =><h2 key = {index}>{index}{lordshiva}</h2>)
   return (
     <div>
         {/* <h2>{name[0]}</h2>
@@ -41,3 +41,9 @@ function NameList() {
 }
 
 export default NameList
+
+///whwn use index as key
+
+/// the items in your list do not have a unique id.
+/// the list is a list  and will not change
+/// the list will never be reordered or filtered
