@@ -10,6 +10,9 @@ import EventBinding from './components/EventBinding';
 import ParentComponent from './components/ParentComponent';
 import Stylesheet from './components/Stylesheet';
 import React from "react";
+import './AppStyles.css'
+import styles from './AppStyle.module.css'
+import Inline from './components/Inline';
 import NameList from './components/NameList';
 import Classclick from './components/Classevent';
 import { Component } from "react";
@@ -21,6 +24,8 @@ class App extends Component {
   render(){
   return (
     <div className="App">
+      <h1 className='error'>popppy</h1>
+      <h1 className={Styles.sucess}>sucess</h1>
       {/* <Hello/> */}
       {/* <Functionclick/> */}
       {/* <Greet name="pavi" regno="2012505016"  >
@@ -44,6 +49,7 @@ class App extends Component {
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
       <Stylesheet primary={true}></Stylesheet>
+      <Inline></Inline>
     </div>
   );
 }
