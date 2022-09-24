@@ -5,15 +5,15 @@ export class UserGreeting extends Component {
       super(props)
     
       this.state = {
-         isLoggedin:true
+         isLoggedin:false
       }
     }
     
   render() {
     
 
-    this.state.isLoggedin?
-    <div>Welcome vishwas</div>:
+    return this.state.isLoggedin?
+    <div>Welcome poppy</div>:
     <div>Welcome guest</div>
 
 
