@@ -6,7 +6,12 @@ const heading = {
 
 function Inline() {
   return (
-    <div><h1 style={heading}>inline</h1></div>
+    <div>
+      
+      <h1 className='error'> panni popppy</h1>
+      <div><h1 style={heading}>inline</h1></div>
+    </div>
+   
   )
 }
 

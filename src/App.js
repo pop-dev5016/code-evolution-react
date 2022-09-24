@@ -10,13 +10,13 @@ import EventBinding from './components/EventBinding';
 import ParentComponent from './components/ParentComponent';
 import Stylesheet from './components/Stylesheet';
 import React from "react";
-import './AppStyles.css'
-import styles from './AppStyle.module.css'
 import Inline from './components/Inline';
 import NameList from './components/NameList';
 import Classclick from './components/Classevent';
 import { Component } from "react";
 import UserGreeting from './components/UserGreeting';
+import './appStyles.css'
+import Styles from './components/AppStyle.module.css'
 
 
 
@@ -48,7 +48,7 @@ class App extends Component {
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
-      <Stylesheet primary={true}></Stylesheet>
+      {/* <Stylesheet primary={true}></Stylesheet>*/}
       <Inline></Inline>
     </div>
   );
