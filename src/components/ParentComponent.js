@@ -12,8 +12,8 @@ export class ParentComponent extends Component {
     }
 
     
-    greetParent(){
-        alert(`"kulandhaivelu"${this.state.parentname}`)
+    greetParent(child){
+        alert(`"kulandhaivelu"${this.state.parentname} from ${child}`)
     }
     
   render() {
