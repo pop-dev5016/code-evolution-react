@@ -5,25 +5,20 @@ export class UserGreeting extends Component {
       super(props)
     
       this.state = {
-         isLoggedin:false
+         isLoggedin:true
       }
     }
     
   render() {
     
+ return this.state.isLoggedin && <div>welcome poppy</div> 
 
-    return this.state.isLoggedin?
-    <div>Welcome poppy</div>:
-    <div>Welcome guest</div>
+/////////////////////////////////////////
+    // return this.state.isLoggedin?
+    // <div>Welcome poppy</div>:
+    // <div>Welcome guest</div>
 
-
-
-
-
-
-
-
-
+////////////////////////////////////////
     //  let message 
     //  if(this.state.isLoggedin){
     //         message = <div>Welcome poppy</div>
