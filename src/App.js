@@ -11,6 +11,7 @@ import ParentComponent from './components/ParentComponent';
 import React from "react";
 import Classclick from './components/Classevent';
 import { Component } from "react";
+import UserGreeting from './components/UserGreeting';
 
 
 
@@ -37,7 +38,8 @@ class App extends Component {
       {/* <Welcome name="nava" regno="2012505018"></Welcome> */}
       {/* <Classclick></Classclick> */}
       {/* <EventBinding></EventBinding> */}
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+      <UserGreeting></UserGreeting>
     </div>
   );
 }
