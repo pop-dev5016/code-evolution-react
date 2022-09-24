@@ -42,7 +42,7 @@ function NameList() {
 
 export default NameList
 
-///whwn use index as key
+///when use index as key
 
 /// the items in your list do not have a unique id.
 /// the list is a list  and will not change

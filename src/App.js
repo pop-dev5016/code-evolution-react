@@ -8,6 +8,7 @@ import Counter from './components/Counter';
 import Functionclick from './Functionclick';
 import EventBinding from './components/EventBinding';
 import ParentComponent from './components/ParentComponent';
+import Stylesheet from './components/Stylesheet';
 import React from "react";
 import NameList from './components/NameList';
 import Classclick from './components/Classevent';
@@ -41,7 +42,8 @@ class App extends Component {
       {/* <EventBinding></EventBinding> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserGreeting></UserGreeting> */}
-      <NameList></NameList>
+      {/* <NameList></NameList> */}
+      <Stylesheet></Stylesheet>
     </div>
   );
 }
