@@ -17,6 +17,7 @@ import FRcurrentInput from './FRcurrentInput';
 import PortalDemo from './components/PortalDemo'
 import Hero from './components/Hero';
 import ErrorHandling from './components/ErrorHandling';
+import ClickCounter from './components/ClickCounter';
 
 
 
@@ -26,16 +27,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      <ErrorHandling>
-      <Hero heroname="pavithran"></Hero>
-      </ErrorHandling>
-      <ErrorHandling>
-      <Hero heroname="vigneshwaran"></Hero>
-      </ErrorHandling>
-      <ErrorHandling>
-      <Hero heroname="joker"></Hero>
-      </ErrorHandling>
-    
+      <ClickCounter></ClickCounter>
     </div>
   );
 }
