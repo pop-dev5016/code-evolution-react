@@ -16,7 +16,7 @@ class App extends Component {
     <div className="App">
       <ClickCounter2></ClickCounter2>
       <HoverCounter2></HoverCounter2>
-      <User name ={(isloggedin)=>isloggedin?"pavithran":"gusest"}></User>
+      <User render ={(isloggedin)=>isloggedin?"pavithran":"guest"}></User>
     </div>
   );
 }
