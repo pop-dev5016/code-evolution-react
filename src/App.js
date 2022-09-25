@@ -5,7 +5,9 @@ import { Component } from "react";
 import Counter2 from './components/counter2';
 import ClickCounter2 from './components/ClickCounter2';
 import HoverCounter2 from './components/HoverCounter2';
+import ComponentC from './components/ComponentC'
 import User from './components/User';
+import { UserProvider } from './components/UserContect';
 
 
 
@@ -15,21 +17,9 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      {/* <ClickCounter2></ClickCounter2>
-      <HoverCounter2></HoverCounter2>
-      <User render ={(isloggedin)=>isloggedin?"pavithran":"guest"}></User> */}
-      <Counter2 
-      render={(Count,incrementCount)=>(
-      <ClickCounter2 count={Count} incrementCount = {incrementCount}/>)}/>
-
-
-
-      <Counter2 
-      render={(Count,incrementCount)=>(
-      <HoverCounter2 count={Count} incrementCount = {incrementCount}/>)}/>
-   
-      
-
+      <UserProvider value="viap">
+      <ComponentC/>
+      </UserProvider>
       
     </div>
   );
