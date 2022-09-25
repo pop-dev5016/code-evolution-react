@@ -9,6 +9,7 @@ import ComponentC from './components/ComponentC'
 import User from './components/User';
 import { UserProvider } from './components/UserContect';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm'
 
 
 
@@ -18,11 +19,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      {/* <UserProvider value="viap">
-      <ComponentC/>
-      </UserProvider> */}
-      <PostList></PostList>
-      
+      <PostForm></PostForm>
     </div>
   );
 }
