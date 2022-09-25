@@ -28,7 +28,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      <ClickCounter></ClickCounter>
+      <ClickCounter name="gandhi"></ClickCounter>
       <HoverCounter></HoverCounter>
     </div>
   );
