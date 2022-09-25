@@ -12,6 +12,9 @@ import ParentComponent2 from './components/ParentComponent2';
 import RefsDemo from './components/RefsDemo';
 import Input from './components/Input';
 import Focusinput from './components/Focusinput';
+import FRinput from './components/FRinput';
+import FRcurrentInput from './FRcurrentInput';
+import PortalDemo from './components/PortalDemo'
 
 
 
@@ -21,8 +24,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-     <Focusinput></Focusinput>
-
+     <PortalDemo></PortalDemo>
     </div>
   );
 }
