@@ -15,6 +15,8 @@ import Focusinput from './components/Focusinput';
 import FRinput from './components/FRinput';
 import FRcurrentInput from './FRcurrentInput';
 import PortalDemo from './components/PortalDemo'
+import Hero from './components/Hero';
+import ErrorHandling from './components/ErrorHandling';
 
 
 
@@ -24,7 +26,16 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-     <PortalDemo></PortalDemo>
+      <ErrorHandling>
+      <Hero heroname="pavithran"></Hero>
+      </ErrorHandling>
+      <ErrorHandling>
+      <Hero heroname="vigneshwaran"></Hero>
+      </ErrorHandling>
+      <ErrorHandling>
+      <Hero heroname="joker"></Hero>
+      </ErrorHandling>
+    
     </div>
   );
 }
