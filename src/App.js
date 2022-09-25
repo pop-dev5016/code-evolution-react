@@ -16,7 +16,7 @@ class App extends Component {
     <div className="App">
       <ClickCounter2></ClickCounter2>
       <HoverCounter2></HoverCounter2>
-      <User name ="pavithran"></User>
+      <User name ={()=>"punda"}></User>
     </div>
   );
 }
