@@ -18,7 +18,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-  
+     {/* <ParentComponent2></ParentComponent2> */}
     </div>
   );
 }
