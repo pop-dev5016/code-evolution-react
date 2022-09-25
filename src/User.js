@@ -4,7 +4,7 @@
    render() {
      return (
        <div>
-         {this.props.name()}
+         {this.props.name(false)}
        </div>
      )
    }
