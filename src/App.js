@@ -9,6 +9,7 @@ import { Component } from "react";
 import Table from './components/Table';
 import PureCom from './components/PureCom';
 import ParentComponent2 from './components/ParentComponent2';
+import RefsDemo from './components/RefsDemo';
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
   return (
     <div className="App">
      {/* <ParentComponent2></ParentComponent2> */}
+     <RefsDemo></RefsDemo>
     </div>
   );
 }
