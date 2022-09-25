@@ -10,6 +10,8 @@ import Table from './components/Table';
 import PureCom from './components/PureCom';
 import ParentComponent2 from './components/ParentComponent2';
 import RefsDemo from './components/RefsDemo';
+import Input from './components/Input';
+import Focusinput from './components/Focusinput';
 
 
 
@@ -19,8 +21,8 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-     {/* <ParentComponent2></ParentComponent2> */}
-     <RefsDemo></RefsDemo>
+     <Focusinput></Focusinput>
+
     </div>
   );
 }
