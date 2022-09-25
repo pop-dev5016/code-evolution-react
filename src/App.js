@@ -19,6 +19,8 @@ import Hero from './components/Hero';
 import ErrorHandling from './components/ErrorHandling';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounter2 from './components/ClickCounter2';
+import HoverCounter2 from './HoverCounter2';
 
 
 
@@ -28,8 +30,8 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      <ClickCounter name="gandhi"></ClickCounter>
-      <HoverCounter></HoverCounter>
+      <ClickCounter2></ClickCounter2>
+      <HoverCounter2></HoverCounter2>
     </div>
   );
 }
